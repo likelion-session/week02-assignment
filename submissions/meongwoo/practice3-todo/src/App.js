@@ -6,6 +6,7 @@ function TodoList() {
   const [todos, setTodos] = useState([
     { id: 1, text: "리액트 공부하기", completed: false },
     { id: 2, text: "과제 제출하기", completed: true },
+    { id: 3, text: "집에 가기", completed: false },
   ]);
 
   const addTodo = () => {
