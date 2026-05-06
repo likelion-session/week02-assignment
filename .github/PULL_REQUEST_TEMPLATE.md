@@ -1,8 +1,8 @@
 ## 2주차 과제 PR
 
 ### 수강생 정보
-- 이름:
-- GitHub 아이디: (submissions 폴더명과 동일해야 합니다)
+- 이름: 김석현
+- GitHub 아이디: kbx1498
 
 ### 제출 체크리스트
 - [ ] `submissions/{GitHub아이디}/` 경로에 파일 추가

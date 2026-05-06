@@ -1,0 +1,110 @@
+body {
+  background-color: #2b2e25;
+  color: #f1f1f1;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.profileCard {
+  border: 4px double #4b5320;
+  border-radius: 5px;
+  padding: 40px;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  background-color: #3e4235;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.profileCard::before {
+  display: block;
+  font-size: 10px;
+  color: #8a9a5b;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.SSS_avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid #4b5320;
+  margin-bottom: 20px;
+  background-color: #2b2e25;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #d1d8bd;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #b0b9a8;
+  line-height: 1.6;
+}
+
+form {
+  border: 1px solid #4b5320;
+  border-radius: 5px;
+  padding: 25px;
+  width: 450px;
+  background-color: #353a2d;
+}
+
+form div {
+  margin-bottom: 20px;
+  padding: 0;
+  align-items: flex-start;
+}
+
+label {
+  color: #8a9a5b;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #4b5320;
+  border-radius: 2px;
+  background-color: #2b2e25;
+  color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4b5320;
+  color: #f1f1f1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #5d6728;
+}
